@@ -1,0 +1,37 @@
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+  <TextView
+      android:layout_marginTop="10dp"
+      android:text="Principal Message"
+      android:textSize="30dp"
+      android:gravity="center"
+      android:textStyle="bold"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="137dp"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/principal6" />
+    </LinearLayout>
+ <me.biubiubiu.justifytext.library.JustifyTextView
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:text="Anand College of Engineering and Management is situated in Kapurthala in Punjab state of India. Established in 1987, it is accredited from AICTE and it is affiliated to Punjab Technical University. ACEM, Kapurthala offers 7 courses across 1 streams namely Engineering and across 2 degrees like B.Tech, Diploma.Hostel facility is available for its students. Additional campus facilities such as Academic Zone, Boys Hostel, Canteen, Computer Lab, Library, Medical Facilities, Cls. Room, WiFi are also there."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+     android:breakStrategy="balanced"/>
+
+</LinearLayout>
+</ScrollView>

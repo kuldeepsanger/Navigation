@@ -1,0 +1,42 @@
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_marginTop="20dp"
+        android:text="ABOUT COLLEGE"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:layout_marginTop="40dp"
+        android:src="@drawable/acem"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+
+    <me.biubiubiu.justifytext.library.JustifyTextView
+        android:layout_marginTop="20dp"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Anand College Of Engineering And Management , Kapurthala,Punjab was established in the year 2010 under the aegis of Anand Educational Trust in order to provide value based and affordable education to students.
+
+Since inception college has strived to provide best engineering education through highly qualified faculty and well equipped labs
+College is affiliated to Punjab Technical University
+College is approved by AICTE
+College has partner with companies and organizations to provide field education and employment
+College provide degree and diploma courses in the field of engineering and technology
+
+
+Departments:
+
+Department of Computer Science and Engineering"
+        android:breakStrategy="balanced"/>
+</LinearLayout>
+</ScrollView>
